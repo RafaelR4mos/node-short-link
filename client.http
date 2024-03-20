@@ -1,7 +1,19 @@
-POST http://localhost:3333/links
+POST http://localhost:3333/api/links
 Content-Type: application/json
 
 {
-  "code": "facebook",
-  "url": "https://facebook.com.br"
+  "code": "teste",
+  "url": "https://teste.com.br"
 }
+
+###
+GET http://localhost:3333/api/links
+
+###
+
+GET http://localhost:3333/google
+
+###
+GET http://localhost:3333/api/metrics
+
+###
